@@ -1,0 +1,16 @@
+{
+  "name": "node-sandbox",
+  "version": "1.0.0",
+  "description": "Simple Node Sandbox",
+  "scripts": {
+    "client": "cd client && npm serve",
+    "server": "cd server && npm start",
+    "start": "concurrently  \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "4.1.1"
+  },
+  "dependencies": {
+    "axios": "0.19.0"
+  }
+}
